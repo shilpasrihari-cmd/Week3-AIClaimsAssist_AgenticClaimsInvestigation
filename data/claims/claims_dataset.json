@@ -1,0 +1,2233 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "generation_seed": 20261110,
+  "external_api_calls": false,
+  "fraud_scoring_implemented": false,
+  "claims": [
+    {
+      "claim_id": "CLM-MOT-0001",
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IT",
+      "currency": "EUR",
+      "claim_status": "FNOL",
+      "claim_outcome": null,
+      "loss_type": "vandalism",
+      "loss_date": "2024-02-17",
+      "reported_date": "2024-02-18",
+      "loss_location": {
+        "country_or_market": "IT",
+        "jurisdiction": "IT",
+        "city": "Synthetic Milan",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Vehicle found with keyed door panel; photographs have not yet been received.",
+      "claimed_amount": 2050.0,
+      "vehicle_id": "VEH-MOT-0000002",
+      "vin": "SYNTHETICVIN00001",
+      "reported_make": "Peugeot",
+      "reported_model": "208",
+      "reported_year": 2016,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-UNAVAILABLE-001",
+          "expected_status": "UNABLE_TO_VERIFY",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0002",
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IE",
+      "currency": "EUR",
+      "claim_status": "FNOL",
+      "claim_outcome": null,
+      "loss_type": "theft",
+      "loss_date": "2025-01-31",
+      "reported_date": "2025-02-01",
+      "loss_location": {
+        "country_or_market": "IE",
+        "jurisdiction": "IE",
+        "city": "Synthetic Dublin",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Vehicle reported missing from a fictional residential parking area.",
+      "claimed_amount": 8200.0,
+      "vehicle_id": "VEH-MOT-0000004",
+      "vin": "SYNTHETICVIN00002",
+      "reported_make": "Opel",
+      "reported_model": "Astra",
+      "reported_year": 2008,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-UNAVAILABLE-001",
+          "expected_status": "UNABLE_TO_VERIFY",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0003",
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IT",
+      "currency": "EUR",
+      "claim_status": "OPEN",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2024-03-29",
+      "reported_date": "2024-03-31",
+      "loss_location": {
+        "country_or_market": "IT",
+        "jurisdiction": "IT",
+        "city": "Synthetic Rome",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Rear bumper and boot damage reported after a low-speed collision.",
+      "claimed_amount": 4750.0,
+      "vehicle_id": "VEH-MOT-0000002",
+      "vin": "SYNTHETICVIN00001",
+      "reported_make": "Peugeot",
+      "reported_model": "208",
+      "reported_year": 2016,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0004",
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IE",
+      "currency": "EUR",
+      "claim_status": "OPEN",
+      "claim_outcome": null,
+      "loss_type": "hail",
+      "loss_date": "2025-03-11",
+      "reported_date": "2025-03-13",
+      "loss_location": {
+        "country_or_market": "IE",
+        "jurisdiction": "IE",
+        "city": "Synthetic Cork",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Small dents reported across the bonnet and roof after a synthetic storm event.",
+      "claimed_amount": 3150.0,
+      "vehicle_id": "VEH-MOT-0000004",
+      "vin": "SYNTHETICVIN00002",
+      "reported_make": "Opel",
+      "reported_model": "Astra",
+      "reported_year": 2008,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0005",
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IT",
+      "currency": "EUR",
+      "claim_status": "UNDER_INVESTIGATION",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2024-05-12",
+      "reported_date": "2024-05-14",
+      "loss_location": {
+        "country_or_market": "IT",
+        "jurisdiction": "IT",
+        "city": "Synthetic Naples",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Rear-end impact reported; the first notice and later note contain different incident dates.",
+      "claimed_amount": 9600.0,
+      "vehicle_id": "VEH-MOT-0000002",
+      "vin": "SYNTHETICVIN00001",
+      "reported_make": "Peugeot",
+      "reported_model": "208",
+      "reported_year": 2016,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-MISMATCH-001",
+          "expected_status": "MISMATCH",
+          "expected_decoded_fields": {
+            "make": "FixtureMaker",
+            "model": "DifferentModel",
+            "model_year": 2020
+          }
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0006",
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IE",
+      "currency": "EUR",
+      "claim_status": "UNDER_INVESTIGATION",
+      "claim_outcome": null,
+      "loss_type": "theft",
+      "loss_date": "2025-04-07",
+      "reported_date": "2025-04-09",
+      "loss_location": {
+        "country_or_market": "IE",
+        "jurisdiction": "IE",
+        "city": "Synthetic Galway",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Vehicle theft reported; vehicle details in the intake note require comparison with the policy schedule.",
+      "claimed_amount": 12400.0,
+      "vehicle_id": "VEH-MOT-0000004",
+      "vin": "SYNTHETICVIN00002",
+      "reported_make": "Opel",
+      "reported_model": "Astra",
+      "reported_year": 2008,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-UNAVAILABLE-001",
+          "expected_status": "UNABLE_TO_VERIFY",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0007",
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IT",
+      "currency": "EUR",
+      "claim_status": "PENDING_REVIEW",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2024-08-21",
+      "reported_date": "2024-08-23",
+      "loss_location": {
+        "country_or_market": "IT",
+        "jurisdiction": "IT",
+        "city": "Synthetic Turin",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Photograph description and repair estimate describe different damaged panels.",
+      "claimed_amount": 6800.0,
+      "vehicle_id": "VEH-MOT-0000002",
+      "vin": "SYNTHETICVIN00001",
+      "reported_make": "Peugeot",
+      "reported_model": "208",
+      "reported_year": 2016,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0008",
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IE",
+      "currency": "EUR",
+      "claim_status": "PENDING_REVIEW",
+      "claim_outcome": null,
+      "loss_type": "hail",
+      "loss_date": "2025-08-30",
+      "reported_date": "2025-09-01",
+      "loss_location": {
+        "country_or_market": "IE",
+        "jurisdiction": "IE",
+        "city": "Synthetic Limerick",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Adjuster notes contain inconsistent descriptions of the reported damage extent.",
+      "claimed_amount": 4200.0,
+      "vehicle_id": "VEH-MOT-0000004",
+      "vin": "SYNTHETICVIN00002",
+      "reported_make": "Opel",
+      "reported_model": "Astra",
+      "reported_year": 2008,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0009",
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IT",
+      "currency": "EUR",
+      "claim_status": "CLOSED",
+      "claim_outcome": "SETTLED",
+      "loss_type": "vandalism",
+      "loss_date": "2024-09-14",
+      "reported_date": "2024-09-16",
+      "loss_location": {
+        "country_or_market": "IT",
+        "jurisdiction": "IT",
+        "city": "Synthetic Florence",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Damage review completed with no supported discrepancy recorded.",
+      "claimed_amount": 1800.0,
+      "vehicle_id": "VEH-MOT-0000002",
+      "vin": "SYNTHETICVIN00001",
+      "reported_make": "Peugeot",
+      "reported_model": "208",
+      "reported_year": 2016,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-MOT-0010",
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": "IE",
+      "currency": "EUR",
+      "claim_status": "CLOSED",
+      "claim_outcome": "SETTLED",
+      "loss_type": "collision",
+      "loss_date": "2025-10-05",
+      "reported_date": "2025-10-07",
+      "loss_location": {
+        "country_or_market": "IE",
+        "jurisdiction": "IE",
+        "city": "Synthetic Waterford",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Closure review found an amount inconsistency between the inventory and final note.",
+      "claimed_amount": 7350.0,
+      "vehicle_id": "VEH-MOT-0000004",
+      "vin": "SYNTHETICVIN00002",
+      "reported_make": "Opel",
+      "reported_model": "Astra",
+      "reported_year": 2008,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-US-0001",
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": "US-NY",
+      "currency": "USD",
+      "claim_status": "FNOL",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2025-01-18",
+      "reported_date": "2025-01-19",
+      "loss_location": {
+        "country_or_market": "US",
+        "jurisdiction": "US-NY",
+        "city": "Synthetic Albany",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Front corner impact reported at a fictional intersection; initial intake only.",
+      "claimed_amount": 6400.0,
+      "vehicle_id": "VEH-AUTO-US-0001",
+      "vin": "SYNTHETICVIN00003",
+      "reported_make": "Northstar",
+      "reported_model": "Sedan",
+      "reported_year": 2022,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-US-0002",
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": "US-NY",
+      "currency": "USD",
+      "claim_status": "OPEN",
+      "claim_outcome": null,
+      "loss_type": "weather",
+      "loss_date": "2025-02-09",
+      "reported_date": "2025-02-11",
+      "loss_location": {
+        "country_or_market": "US",
+        "jurisdiction": "US-NY",
+        "city": "Synthetic Buffalo",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Weather-related glass and roof damage reported; supporting photographs remain outstanding.",
+      "claimed_amount": 2800.0,
+      "vehicle_id": "VEH-AUTO-US-0001",
+      "vin": "SYNTHETICVIN00003",
+      "reported_make": "Northstar",
+      "reported_model": "Sedan",
+      "reported_year": 2022,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-US-0003",
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": "US-NY",
+      "currency": "USD",
+      "claim_status": "UNDER_INVESTIGATION",
+      "claim_outcome": null,
+      "loss_type": "theft",
+      "loss_date": "2025-03-22",
+      "reported_date": "2025-03-24",
+      "loss_location": {
+        "country_or_market": "US",
+        "jurisdiction": "US-NY",
+        "city": "Synthetic Rochester",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Theft report is being compared with another synthetic claim involving a similar vehicle location.",
+      "claimed_amount": 15800.0,
+      "vehicle_id": "VEH-AUTO-US-0001",
+      "vin": "SYNTHETICVIN00003",
+      "reported_make": "Northstar",
+      "reported_model": "Sedan",
+      "reported_year": 2022,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-US-0004",
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": "US-NY",
+      "currency": "USD",
+      "claim_status": "PENDING_REVIEW",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2025-04-16",
+      "reported_date": "2025-04-18",
+      "loss_location": {
+        "country_or_market": "US",
+        "jurisdiction": "US-NY",
+        "city": "Synthetic Syracuse",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "The local VIN fixture is expected to match the reported synthetic vehicle details.",
+      "claimed_amount": 7100.0,
+      "vehicle_id": "VEH-AUTO-US-0001",
+      "vin": "SYNTHETICVIN00003",
+      "reported_make": "Northstar",
+      "reported_model": "Sedan",
+      "reported_year": 2022,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-MATCH-001",
+          "expected_status": "MATCHED",
+          "expected_decoded_fields": {
+            "make": "Northstar",
+            "model_year": 2022
+          }
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-US-0005",
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": "US-NY",
+      "currency": "USD",
+      "claim_status": "CLOSED",
+      "claim_outcome": "SETTLED",
+      "loss_type": "glass",
+      "loss_date": "2025-06-03",
+      "reported_date": "2025-06-05",
+      "loss_location": {
+        "country_or_market": "US",
+        "jurisdiction": "US-NY",
+        "city": "Synthetic Yonkers",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Claim closed after review; the local VIN fixture is intentionally expected to differ in model year.",
+      "claimed_amount": 950.0,
+      "vehicle_id": "VEH-AUTO-US-0001",
+      "vin": "SYNTHETICVIN00003",
+      "reported_make": "Northstar",
+      "reported_model": "Sedan",
+      "reported_year": 2022,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-MISMATCH-001",
+          "expected_status": "MISMATCH",
+          "expected_decoded_fields": {
+            "make": "FixtureMaker",
+            "model": "DifferentModel",
+            "model_year": 2020
+          }
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-CA-0001",
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": "CA-ON",
+      "currency": "CAD",
+      "claim_status": "FNOL",
+      "claim_outcome": null,
+      "loss_type": "animal_strike",
+      "loss_date": "2025-01-27",
+      "reported_date": "2025-01-28",
+      "loss_location": {
+        "country_or_market": "CA",
+        "jurisdiction": "CA-ON",
+        "city": "Synthetic Toronto",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Front bumper damage reported after contact with an unidentified animal.",
+      "claimed_amount": 3900.0,
+      "vehicle_id": "VEH-AUTO-CA-0001",
+      "vin": "SYNTHETICVIN00004",
+      "reported_make": "Mapleline",
+      "reported_model": "Utility SUV",
+      "reported_year": 2021,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-CA-0002",
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": "CA-ON",
+      "currency": "CAD",
+      "claim_status": "OPEN",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2025-02-14",
+      "reported_date": "2025-02-16",
+      "loss_location": {
+        "country_or_market": "CA",
+        "jurisdiction": "CA-ON",
+        "city": "Synthetic Ottawa",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Intersection collision reported; third-party details are incomplete.",
+      "claimed_amount": 8600.0,
+      "vehicle_id": "VEH-AUTO-CA-0001",
+      "vin": "SYNTHETICVIN00004",
+      "reported_make": "Mapleline",
+      "reported_model": "Utility SUV",
+      "reported_year": 2021,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-MATCH-001",
+          "expected_status": "MATCHED",
+          "expected_decoded_fields": {
+            "make": "Mapleline",
+            "model_year": 2021
+          }
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-CA-0003",
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": "CA-ON",
+      "currency": "CAD",
+      "claim_status": "UNDER_INVESTIGATION",
+      "claim_outcome": null,
+      "loss_type": "collision",
+      "loss_date": "2025-03-19",
+      "reported_date": "2025-03-21",
+      "loss_location": {
+        "country_or_market": "CA",
+        "jurisdiction": "CA-ON",
+        "city": "Synthetic Hamilton",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Claimant statement and damage description conflict about the point of impact.",
+      "claimed_amount": 11200.0,
+      "vehicle_id": "VEH-AUTO-CA-0001",
+      "vin": "SYNTHETICVIN00004",
+      "reported_make": "Mapleline",
+      "reported_model": "Utility SUV",
+      "reported_year": 2021,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-MISMATCH-001",
+          "expected_status": "MISMATCH",
+          "expected_decoded_fields": {
+            "make": "FixtureMaker",
+            "model": "DifferentModel",
+            "model_year": 2020
+          }
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-CA-0004",
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": "CA-ON",
+      "currency": "CAD",
+      "claim_status": "PENDING_REVIEW",
+      "claim_outcome": null,
+      "loss_type": "theft",
+      "loss_date": "2025-04-28",
+      "reported_date": "2025-04-30",
+      "loss_location": {
+        "country_or_market": "CA",
+        "jurisdiction": "CA-ON",
+        "city": "Synthetic London",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Police-report metadata and the intake record require a final consistency review.",
+      "claimed_amount": 17600.0,
+      "vehicle_id": "VEH-AUTO-CA-0001",
+      "vin": "SYNTHETICVIN00004",
+      "reported_make": "Mapleline",
+      "reported_model": "Utility SUV",
+      "reported_year": 2021,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-UNAVAILABLE-001",
+          "expected_status": "UNABLE_TO_VERIFY",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    },
+    {
+      "claim_id": "CLM-AUTO-CA-0005",
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": "CA-ON",
+      "currency": "CAD",
+      "claim_status": "CLOSED",
+      "claim_outcome": "SETTLED",
+      "loss_type": "hail",
+      "loss_date": "2025-07-12",
+      "reported_date": "2025-07-14",
+      "loss_location": {
+        "country_or_market": "CA",
+        "jurisdiction": "CA-ON",
+        "city": "Synthetic Mississauga",
+        "location_type": "synthetic_public_location"
+      },
+      "loss_description": "Claim closed after the apparent note contradiction was resolved as a wording error.",
+      "claimed_amount": 2950.0,
+      "vehicle_id": "VEH-AUTO-CA-0001",
+      "vin": "SYNTHETICVIN00004",
+      "reported_make": "Mapleline",
+      "reported_model": "Utility SUV",
+      "reported_year": 2021,
+      "vehicle_verification": {
+        "actual_status": "PENDING",
+        "fixture": {
+          "fixture_id": "LOCAL-SYNTHETIC-PENDING-001",
+          "expected_status": "PENDING",
+          "expected_decoded_fields": null
+        },
+        "verification_note": "No external VIN API was called; fixture expectation is separate from actual verification status."
+      }
+    }
+  ],
+  "claim_notes": [
+    {
+      "note_id": "NOTE-CLM-MOT-0001-01",
+      "claim_id": "CLM-MOT-0001",
+      "note_timestamp": "2024-02-18T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2024-02-18: Vehicle found with keyed door panel; photographs have not yet been received."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0001-02",
+      "claim_id": "CLM-MOT-0001",
+      "note_timestamp": "2024-02-19T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0001-03",
+      "claim_id": "CLM-MOT-0001",
+      "note_timestamp": "2024-02-20T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0002-01",
+      "claim_id": "CLM-MOT-0002",
+      "note_timestamp": "2025-02-01T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-02-01: Vehicle reported missing from a fictional residential parking area."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0002-02",
+      "claim_id": "CLM-MOT-0002",
+      "note_timestamp": "2025-02-02T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0002-03",
+      "claim_id": "CLM-MOT-0002",
+      "note_timestamp": "2025-02-03T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0003-01",
+      "claim_id": "CLM-MOT-0003",
+      "note_timestamp": "2024-03-31T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2024-03-31: Rear bumper and boot damage reported after a low-speed collision."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0003-02",
+      "claim_id": "CLM-MOT-0003",
+      "note_timestamp": "2024-04-01T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0003-03",
+      "claim_id": "CLM-MOT-0003",
+      "note_timestamp": "2024-04-02T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0004-01",
+      "claim_id": "CLM-MOT-0004",
+      "note_timestamp": "2025-03-13T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-03-13: Small dents reported across the bonnet and roof after a synthetic storm event."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0004-02",
+      "claim_id": "CLM-MOT-0004",
+      "note_timestamp": "2025-03-14T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0004-03",
+      "claim_id": "CLM-MOT-0004",
+      "note_timestamp": "2025-03-15T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0005-01",
+      "claim_id": "CLM-MOT-0005",
+      "note_timestamp": "2024-05-14T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2024-05-14: Rear-end impact reported; the first notice and later note contain different incident dates."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0005-02",
+      "claim_id": "CLM-MOT-0005",
+      "note_timestamp": "2024-05-15T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0005-03",
+      "claim_id": "CLM-MOT-0005",
+      "note_timestamp": "2024-05-16T12:00:00Z",
+      "author_role": "INVESTIGATOR",
+      "note_type": "INVESTIGATION",
+      "note_text": "The claimant first stated 2024-05-12, while a later contact note states 2024-05-13; both statements require human review."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0006-01",
+      "claim_id": "CLM-MOT-0006",
+      "note_timestamp": "2025-04-09T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-04-09: Vehicle theft reported; vehicle details in the intake note require comparison with the policy schedule."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0006-02",
+      "claim_id": "CLM-MOT-0006",
+      "note_timestamp": "2025-04-10T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0006-03",
+      "claim_id": "CLM-MOT-0006",
+      "note_timestamp": "2025-04-11T12:00:00Z",
+      "author_role": "INVESTIGATOR",
+      "note_type": "INVESTIGATION",
+      "note_text": "The intake note describes an Opel Astra, while the vehicle detail field is incomplete; no external VIN result exists."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0007-01",
+      "claim_id": "CLM-MOT-0007",
+      "note_timestamp": "2024-08-23T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2024-08-23: Photograph description and repair estimate describe different damaged panels."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0007-02",
+      "claim_id": "CLM-MOT-0007",
+      "note_timestamp": "2024-08-24T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0007-03",
+      "claim_id": "CLM-MOT-0007",
+      "note_timestamp": "2024-08-25T12:00:00Z",
+      "author_role": "SUPERVISOR",
+      "note_type": "ESCALATION",
+      "note_text": "Photograph summary mentions rear-left damage, while the estimate mentions front-right damage."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0008-01",
+      "claim_id": "CLM-MOT-0008",
+      "note_timestamp": "2025-09-01T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-09-01: Adjuster notes contain inconsistent descriptions of the reported damage extent."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0008-02",
+      "claim_id": "CLM-MOT-0008",
+      "note_timestamp": "2025-09-02T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0008-03",
+      "claim_id": "CLM-MOT-0008",
+      "note_timestamp": "2025-09-03T12:00:00Z",
+      "author_role": "SUPERVISOR",
+      "note_type": "ESCALATION",
+      "note_text": "One note says roof-only hail dents; another says all body panels were affected."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0009-01",
+      "claim_id": "CLM-MOT-0009",
+      "note_timestamp": "2024-09-16T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2024-09-16: Damage review completed with no supported discrepancy recorded."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0009-02",
+      "claim_id": "CLM-MOT-0009",
+      "note_timestamp": "2024-09-17T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0009-03",
+      "claim_id": "CLM-MOT-0009",
+      "note_timestamp": "2024-09-18T12:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "CLOSURE",
+      "note_text": "Claim review completed and closed with no supported discrepancy recorded."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0010-01",
+      "claim_id": "CLM-MOT-0010",
+      "note_timestamp": "2025-10-07T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-10-07: Closure review found an amount inconsistency between the inventory and final note."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0010-02",
+      "claim_id": "CLM-MOT-0010",
+      "note_timestamp": "2025-10-08T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-MOT-0010-03",
+      "claim_id": "CLM-MOT-0010",
+      "note_timestamp": "2025-10-09T12:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "CLOSURE",
+      "note_text": "The document inventory amount is not supported by a separate physical source document; the closure amount remains for adjuster confirmation."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0001-01",
+      "claim_id": "CLM-AUTO-US-0001",
+      "note_timestamp": "2025-01-19T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-01-19: Front corner impact reported at a fictional intersection; initial intake only."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0001-02",
+      "claim_id": "CLM-AUTO-US-0001",
+      "note_timestamp": "2025-01-20T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0001-03",
+      "claim_id": "CLM-AUTO-US-0001",
+      "note_timestamp": "2025-01-21T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0002-01",
+      "claim_id": "CLM-AUTO-US-0002",
+      "note_timestamp": "2025-02-11T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-02-11: Weather-related glass and roof damage reported; supporting photographs remain outstanding."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0002-02",
+      "claim_id": "CLM-AUTO-US-0002",
+      "note_timestamp": "2025-02-12T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0002-03",
+      "claim_id": "CLM-AUTO-US-0002",
+      "note_timestamp": "2025-02-13T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0003-01",
+      "claim_id": "CLM-AUTO-US-0003",
+      "note_timestamp": "2025-03-24T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-03-24: Theft report is being compared with another synthetic claim involving a similar vehicle location."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0003-02",
+      "claim_id": "CLM-AUTO-US-0003",
+      "note_timestamp": "2025-03-25T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0003-03",
+      "claim_id": "CLM-AUTO-US-0003",
+      "note_timestamp": "2025-03-26T12:00:00Z",
+      "author_role": "INVESTIGATOR",
+      "note_type": "INVESTIGATION",
+      "note_text": "A potentially related synthetic claim has a similar loss location and vehicle description; relationship is unverified."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0004-01",
+      "claim_id": "CLM-AUTO-US-0004",
+      "note_timestamp": "2025-04-18T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-04-18: The local VIN fixture is expected to match the reported synthetic vehicle details."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0004-02",
+      "claim_id": "CLM-AUTO-US-0004",
+      "note_timestamp": "2025-04-19T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0004-03",
+      "claim_id": "CLM-AUTO-US-0004",
+      "note_timestamp": "2025-04-20T12:00:00Z",
+      "author_role": "SUPERVISOR",
+      "note_type": "ESCALATION",
+      "note_text": "Investigation review is complete enough for human adjuster review; no automated decision is recorded."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0005-01",
+      "claim_id": "CLM-AUTO-US-0005",
+      "note_timestamp": "2025-06-05T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-06-05: Claim closed after review; the local VIN fixture is intentionally expected to differ in model year."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0005-02",
+      "claim_id": "CLM-AUTO-US-0005",
+      "note_timestamp": "2025-06-06T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-US-0005-03",
+      "claim_id": "CLM-AUTO-US-0005",
+      "note_timestamp": "2025-06-07T12:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "CLOSURE",
+      "note_text": "The local test fixture is expected to return a different model year; this is not an external verification result."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0001-01",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "note_timestamp": "2025-01-28T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-01-28: Front bumper damage reported after contact with an unidentified animal."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0001-02",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "note_timestamp": "2025-01-29T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0001-03",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "note_timestamp": "2025-01-30T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0002-01",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "note_timestamp": "2025-02-16T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-02-16: Intersection collision reported; third-party details are incomplete."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0002-02",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "note_timestamp": "2025-02-17T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0002-03",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "note_timestamp": "2025-02-18T12:00:00Z",
+      "author_role": "SYSTEM",
+      "note_type": "CONTACT",
+      "note_text": "Claim remains in its current lifecycle status; outstanding evidence and document requirements are tracked separately."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0003-01",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "note_timestamp": "2025-03-21T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-03-21: Claimant statement and damage description conflict about the point of impact."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0003-02",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "note_timestamp": "2025-03-22T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0003-03",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "note_timestamp": "2025-03-23T12:00:00Z",
+      "author_role": "INVESTIGATOR",
+      "note_type": "INVESTIGATION",
+      "note_text": "The claimant describes front-left impact, while the adjuster note describes rear-right impact."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0004-01",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "note_timestamp": "2025-04-30T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-04-30: Police-report metadata and the intake record require a final consistency review."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0004-02",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "note_timestamp": "2025-05-01T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0004-03",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "note_timestamp": "2025-05-02T12:00:00Z",
+      "author_role": "SUPERVISOR",
+      "note_type": "ESCALATION",
+      "note_text": "The intake record and police-report reference use different fictional event-reference suffixes."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0005-01",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "note_timestamp": "2025-07-14T10:00:00Z",
+      "author_role": "CLAIMANT",
+      "note_type": "FNOL",
+      "note_text": "Synthetic claimant intake recorded on 2025-07-14: Claim closed after the apparent note contradiction was resolved as a wording error."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0005-02",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "note_timestamp": "2025-07-15T11:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "DOCUMENT_REVIEW",
+      "note_text": "Adjuster opened the file and requested the applicable loss notification, vehicle photographs, repair estimate and any conditional police or witness material. No physical claim document is created by this dataset."
+    },
+    {
+      "note_id": "NOTE-CLM-AUTO-CA-0005-03",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "note_timestamp": "2025-07-16T12:00:00Z",
+      "author_role": "ADJUSTER",
+      "note_type": "CLOSURE",
+      "note_text": "An earlier note said hail was observed on the roof; the final review clarified that the note meant the vehicle was parked under cover."
+    }
+  ],
+  "claim_documents": [
+    {
+      "document_id": "DOC-CLM-MOT-0001-01",
+      "claim_id": "CLM-MOT-0001",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0001-02",
+      "claim_id": "CLM-MOT-0001",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0001-03",
+      "claim_id": "CLM-MOT-0001",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0001-04",
+      "claim_id": "CLM-MOT-0001",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0001-05",
+      "claim_id": "CLM-MOT-0001",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0002-01",
+      "claim_id": "CLM-MOT-0002",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0002-02",
+      "claim_id": "CLM-MOT-0002",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0002-03",
+      "claim_id": "CLM-MOT-0002",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0002-04",
+      "claim_id": "CLM-MOT-0002",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0002-05",
+      "claim_id": "CLM-MOT-0002",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0003-01",
+      "claim_id": "CLM-MOT-0003",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0003-02",
+      "claim_id": "CLM-MOT-0003",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0003-03",
+      "claim_id": "CLM-MOT-0003",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0003-04",
+      "claim_id": "CLM-MOT-0003",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0003-05",
+      "claim_id": "CLM-MOT-0003",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0004-01",
+      "claim_id": "CLM-MOT-0004",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0004-02",
+      "claim_id": "CLM-MOT-0004",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0004-03",
+      "claim_id": "CLM-MOT-0004",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0004-04",
+      "claim_id": "CLM-MOT-0004",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0004-05",
+      "claim_id": "CLM-MOT-0004",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0005-01",
+      "claim_id": "CLM-MOT-0005",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0005-02",
+      "claim_id": "CLM-MOT-0005",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0005-03",
+      "claim_id": "CLM-MOT-0005",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0005-04",
+      "claim_id": "CLM-MOT-0005",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0005-05",
+      "claim_id": "CLM-MOT-0005",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0006-01",
+      "claim_id": "CLM-MOT-0006",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0006-02",
+      "claim_id": "CLM-MOT-0006",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0006-03",
+      "claim_id": "CLM-MOT-0006",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0006-04",
+      "claim_id": "CLM-MOT-0006",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0006-05",
+      "claim_id": "CLM-MOT-0006",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0007-01",
+      "claim_id": "CLM-MOT-0007",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0007-02",
+      "claim_id": "CLM-MOT-0007",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0007-03",
+      "claim_id": "CLM-MOT-0007",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0007-04",
+      "claim_id": "CLM-MOT-0007",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0007-05",
+      "claim_id": "CLM-MOT-0007",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0008-01",
+      "claim_id": "CLM-MOT-0008",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0008-02",
+      "claim_id": "CLM-MOT-0008",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0008-03",
+      "claim_id": "CLM-MOT-0008",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0008-04",
+      "claim_id": "CLM-MOT-0008",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0008-05",
+      "claim_id": "CLM-MOT-0008",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0009-01",
+      "claim_id": "CLM-MOT-0009",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0009-02",
+      "claim_id": "CLM-MOT-0009",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0009-03",
+      "claim_id": "CLM-MOT-0009",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0009-04",
+      "claim_id": "CLM-MOT-0009",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0009-05",
+      "claim_id": "CLM-MOT-0009",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0010-01",
+      "claim_id": "CLM-MOT-0010",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0010-02",
+      "claim_id": "CLM-MOT-0010",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0010-03",
+      "claim_id": "CLM-MOT-0010",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0010-04",
+      "claim_id": "CLM-MOT-0010",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-MOT-0010-05",
+      "claim_id": "CLM-MOT-0010",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0001-01",
+      "claim_id": "CLM-AUTO-US-0001",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0001-02",
+      "claim_id": "CLM-AUTO-US-0001",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0001-03",
+      "claim_id": "CLM-AUTO-US-0001",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0001-04",
+      "claim_id": "CLM-AUTO-US-0001",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0001-05",
+      "claim_id": "CLM-AUTO-US-0001",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0002-01",
+      "claim_id": "CLM-AUTO-US-0002",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0002-02",
+      "claim_id": "CLM-AUTO-US-0002",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0002-03",
+      "claim_id": "CLM-AUTO-US-0002",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0002-04",
+      "claim_id": "CLM-AUTO-US-0002",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0002-05",
+      "claim_id": "CLM-AUTO-US-0002",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0003-01",
+      "claim_id": "CLM-AUTO-US-0003",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0003-02",
+      "claim_id": "CLM-AUTO-US-0003",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0003-03",
+      "claim_id": "CLM-AUTO-US-0003",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0003-04",
+      "claim_id": "CLM-AUTO-US-0003",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0003-05",
+      "claim_id": "CLM-AUTO-US-0003",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0004-01",
+      "claim_id": "CLM-AUTO-US-0004",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0004-02",
+      "claim_id": "CLM-AUTO-US-0004",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0004-03",
+      "claim_id": "CLM-AUTO-US-0004",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0004-04",
+      "claim_id": "CLM-AUTO-US-0004",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0004-05",
+      "claim_id": "CLM-AUTO-US-0004",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0005-01",
+      "claim_id": "CLM-AUTO-US-0005",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0005-02",
+      "claim_id": "CLM-AUTO-US-0005",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0005-03",
+      "claim_id": "CLM-AUTO-US-0005",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0005-04",
+      "claim_id": "CLM-AUTO-US-0005",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-US-0005-05",
+      "claim_id": "CLM-AUTO-US-0005",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0001-01",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0001-02",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0001-03",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0001-04",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0001-05",
+      "claim_id": "CLM-AUTO-CA-0001",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0002-01",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0002-02",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0002-03",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0002-04",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0002-05",
+      "claim_id": "CLM-AUTO-CA-0002",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0003-01",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0003-02",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0003-03",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0003-04",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0003-05",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0004-01",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0004-02",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0004-03",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0004-04",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0004-05",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "NOT_YET_REQUIRED",
+      "document_status": "NOT_YET_REQUIRED",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0005-01",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "document_type": "LOSS_NOTIFICATION",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0005-02",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "document_type": "VEHICLE_PHOTOGRAPHS",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0005-03",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "document_type": "REPAIR_ESTIMATE",
+      "requirement_state": "CONDITIONAL",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0005-04",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "document_type": "POLICE_REPORT",
+      "requirement_state": "NOT_APPLICABLE",
+      "document_status": "NOT_APPLICABLE",
+      "received_date": null,
+      "source_reference": null
+    },
+    {
+      "document_id": "DOC-CLM-AUTO-CA-0005-05",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "document_type": "CLOSURE_LETTER",
+      "requirement_state": "REQUIRED",
+      "document_status": "MISSING",
+      "received_date": null,
+      "source_reference": null
+    }
+  ],
+  "evidence_observations": [
+    {
+      "evidence_id": "EVID-CLM-MOT-0005-01",
+      "claim_id": "CLM-MOT-0005",
+      "indicator_type": "DATE_INCONSISTENCY",
+      "indicator_description": "Two chronological claim notes state different incident dates; the discrepancy is documented but not resolved.",
+      "verification_status": "UNVERIFIED",
+      "supporting_source_ids": [
+        "NOTE-CLM-MOT-0005-02",
+        "NOTE-CLM-MOT-0005-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-MOT-0006-01",
+      "claim_id": "CLM-MOT-0006",
+      "indicator_type": "VEHICLE_INFORMATION_DISCREPANCY",
+      "indicator_description": "The vehicle description in the intake note is incomplete relative to the policy vehicle fields.",
+      "verification_status": "INCOMPLETE_DATA",
+      "supporting_source_ids": [
+        "NOTE-CLM-MOT-0006-02",
+        "NOTE-CLM-MOT-0006-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-MOT-0007-01",
+      "claim_id": "CLM-MOT-0007",
+      "indicator_type": "DAMAGE_DESCRIPTION_CONFLICT",
+      "indicator_description": "The photograph summary and estimate describe different damaged vehicle areas.",
+      "verification_status": "CONFIRMED",
+      "supporting_source_ids": [
+        "NOTE-CLM-MOT-0007-02",
+        "NOTE-CLM-MOT-0007-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-MOT-0008-01",
+      "claim_id": "CLM-MOT-0008",
+      "indicator_type": "CONTRADICTORY_NOTE",
+      "indicator_description": "Two adjuster-facing notes describe different extents of hail damage.",
+      "verification_status": "UNVERIFIED",
+      "supporting_source_ids": [
+        "NOTE-CLM-MOT-0008-02",
+        "NOTE-CLM-MOT-0008-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-MOT-0010-01",
+      "claim_id": "CLM-MOT-0010",
+      "indicator_type": "DOCUMENT_INCONSISTENCY",
+      "indicator_description": "The closure note refers to an amount that is not supported by a separate physical claim document.",
+      "verification_status": "INCOMPLETE_DATA",
+      "supporting_source_ids": [
+        "NOTE-CLM-MOT-0010-02",
+        "NOTE-CLM-MOT-0010-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-AUTO-US-0003-01",
+      "claim_id": "CLM-AUTO-US-0003",
+      "indicator_type": "DUPLICATE_OR_RELATED_CLAIM",
+      "indicator_description": "The notes identify a potentially related synthetic claim based on similar location and vehicle details; the relationship is unverified.",
+      "verification_status": "UNVERIFIED",
+      "supporting_source_ids": [
+        "NOTE-CLM-AUTO-US-0003-02",
+        "NOTE-CLM-AUTO-US-0003-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-AUTO-US-0005-01",
+      "claim_id": "CLM-AUTO-US-0005",
+      "indicator_type": "VEHICLE_INFORMATION_DISCREPANCY",
+      "indicator_description": "A local test fixture is expected to decode a different model year; no external decoding result exists.",
+      "verification_status": "UNVERIFIED",
+      "supporting_source_ids": [
+        "NOTE-CLM-AUTO-US-0005-02",
+        "NOTE-CLM-AUTO-US-0005-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-AUTO-CA-0003-01",
+      "claim_id": "CLM-AUTO-CA-0003",
+      "indicator_type": "DAMAGE_DESCRIPTION_CONFLICT",
+      "indicator_description": "The claimant and adjuster notes describe different impact locations.",
+      "verification_status": "CONFIRMED",
+      "supporting_source_ids": [
+        "NOTE-CLM-AUTO-CA-0003-02",
+        "NOTE-CLM-AUTO-CA-0003-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-AUTO-CA-0004-01",
+      "claim_id": "CLM-AUTO-CA-0004",
+      "indicator_type": "DOCUMENT_INCONSISTENCY",
+      "indicator_description": "The intake and police-report reference values differ in their fictional suffixes.",
+      "verification_status": "UNVERIFIED",
+      "supporting_source_ids": [
+        "NOTE-CLM-AUTO-CA-0004-02",
+        "NOTE-CLM-AUTO-CA-0004-03"
+      ],
+      "review_required": true
+    },
+    {
+      "evidence_id": "EVID-CLM-AUTO-CA-0005-01",
+      "claim_id": "CLM-AUTO-CA-0005",
+      "indicator_type": "CONTRADICTORY_NOTE",
+      "indicator_description": "An apparent contradiction was resolved as a wording error during review; it is recorded for auditability, not as a fraud conclusion.",
+      "verification_status": "DISPROVED",
+      "supporting_source_ids": [
+        "NOTE-CLM-AUTO-CA-0005-02",
+        "NOTE-CLM-AUTO-CA-0005-03"
+      ],
+      "review_required": false
+    }
+  ]
+}

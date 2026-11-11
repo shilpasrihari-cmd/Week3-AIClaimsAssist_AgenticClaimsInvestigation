@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "description": "Eligible synthetic policy registry for AIClaimsAssist Week 3. COM-* businessowners policies are intentionally excluded.",
+  "policies": [
+    {
+      "policy_id": "MOT-0000002",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": {
+        "country": "IT",
+        "subdivision": null,
+        "source_note": "Italy is established by the verified declarations mailing address; no region is normalized."
+      },
+      "currency": "EUR",
+      "personal_commercial": "PERSONAL",
+      "effective_date": "2023-11-26",
+      "expiration_date": "2024-11-25",
+      "source_classification": "EXISTING_VERIFIED",
+      "source_project": "Week2_AIClaimsAssist_RAG",
+      "document_references": [
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000002-contract.docx",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000002-declarations.pdf",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000002-schedule.pdf",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000002-endorsements.pdf"
+      ],
+      "known_gaps": [
+        "No normalized subdivision value.",
+        "Separate collision and comprehensive limits are not stated in the verified schedule.",
+        "NEW_CAR_REPL eligibility conditions are incomplete."
+      ]
+    },
+    {
+      "policy_id": "MOT-0000004",
+      "insurance_type": "MOTOR",
+      "insurance_market": "EU",
+      "jurisdiction": {
+        "country": "IE",
+        "subdivision": null,
+        "source_note": "Ireland is established by the verified declarations mailing address; no county is normalized."
+      },
+      "currency": "EUR",
+      "personal_commercial": "PERSONAL",
+      "effective_date": "2024-12-04",
+      "expiration_date": "2025-12-04",
+      "source_classification": "EXISTING_VERIFIED",
+      "source_project": "Week2_AIClaimsAssist_RAG",
+      "document_references": [
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000004-contract.docx",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000004-declarations.pdf",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000004-schedule.pdf",
+        "Week2_AIClaimsAssist_RAG/data/policies/MOT-0000004-endorsements.pdf"
+      ],
+      "known_gaps": [
+        "No normalized subdivision value.",
+        "Separate collision and comprehensive limits are not stated in the verified schedule.",
+        "GAP, UM_UIM and NEW_CAR_REPL eligibility or limits are incomplete."
+      ]
+    },
+    {
+      "policy_id": "AUTO-US-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "US",
+      "jurisdiction": {
+        "country": "US",
+        "subdivision": "NY"
+      },
+      "currency": "USD",
+      "personal_commercial": "PERSONAL",
+      "effective_date": "2025-01-01",
+      "expiration_date": "2025-12-31",
+      "source_classification": "NEWLY_SYNTHETIC",
+      "source_project": "Week3",
+      "document_references": [
+        "data/policies/AUTO-US-0001/AUTO-US-0001-declarations.md",
+        "data/policies/AUTO-US-0001/AUTO-US-0001-contract.md",
+        "data/policies/AUTO-US-0001/AUTO-US-0001-schedule.md",
+        "data/policies/AUTO-US-0001/AUTO-US-0001-endorsements.md",
+        "data/policies/AUTO-US-0001/AUTO-US-0001-jurisdiction-addendum.md"
+      ],
+      "known_gaps": [
+        "All limits and provisions are fictional and must not be treated as New York statutory requirements."
+      ]
+    },
+    {
+      "policy_id": "AUTO-CA-0001",
+      "insurance_type": "AUTO",
+      "insurance_market": "Canada",
+      "jurisdiction": {
+        "country": "CA",
+        "subdivision": "ON"
+      },
+      "currency": "CAD",
+      "personal_commercial": "PERSONAL",
+      "effective_date": "2025-01-01",
+      "expiration_date": "2025-12-31",
+      "source_classification": "NEWLY_SYNTHETIC",
+      "source_project": "Week3",
+      "document_references": [
+        "data/policies/AUTO-CA-0001/AUTO-CA-0001-declarations.md",
+        "data/policies/AUTO-CA-0001/AUTO-CA-0001-contract.md",
+        "data/policies/AUTO-CA-0001/AUTO-CA-0001-schedule.md",
+        "data/policies/AUTO-CA-0001/AUTO-CA-0001-endorsements.md",
+        "data/policies/AUTO-CA-0001/AUTO-CA-0001-jurisdiction-addendum.md"
+      ],
+      "known_gaps": [
+        "All limits and provisions are fictional and must not be treated as Ontario statutory requirements."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "Week2_AIClaimsAssist_RAG"]
+	path = Week2_AIClaimsAssist_RAG
+	url = https://github.com/shilpasrihari-cmd/Week2_AIClaimsAssist_RAG.git
