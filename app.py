@@ -40,6 +40,11 @@ def _format_location(location: object) -> str:
     return ", ".join(str(part) for part in parts if part) or "Unavailable"
 
 
+def _display_value(value: object) -> str:
+    """Keep summary-table columns Arrow-compatible across mixed source types."""
+    return "Unavailable" if value is None else str(value)
+
+
 def _apply_page_style() -> None:
     image_data = base64.b64encode(BACKGROUND_PATH.read_bytes()).decode("ascii")
     st.markdown(
@@ -77,9 +82,9 @@ def _show_report(report: dict, state: dict) -> None:
         review_status = report.get("human_review_status", "PENDING_REVIEW")
         st.table(
             [
-                {"Fraud detail": "Fraud Score", "Value": score if score is not None else "Unavailable"},
-                {"Fraud detail": "Fraud Description", "Value": fraud_summary},
-                {"Fraud detail": "Human Review", "Value": review_status},
+                {"Fraud detail": "Fraud Score", "Value": _display_value(score)},
+                {"Fraud detail": "Fraud Description", "Value": _display_value(fraud_summary)},
+                {"Fraud detail": "Human Review", "Value": _display_value(review_status)},
                 {
                     "Fraud detail": "Score Explanation",
                     "Value": "Based only on supported confirmed discrepancies; not a fraud probability or claim decision.",
@@ -170,7 +175,7 @@ def _show_report(report: dict, state: dict) -> None:
                     if field == "loss_location"
                     else formatted_summary
                     if field == "summary"
-                    else claim_summary.get(field)
+                    else _display_value(claim_summary.get(field))
                 ),
             }
             for label, field in (
@@ -205,19 +210,19 @@ def _show_report(report: dict, state: dict) -> None:
             reported_vehicle = vehicle.get("reported_vehicle") or {}
             decoded_vehicle = vehicle.get("decoded_vehicle") or {}
             vehicle_rows = [
-                {"Field": "Verification status", "Value": vehicle_status},
-                {"Field": "Reported VIN", "Value": reported_vehicle.get("vin")},
-                {"Field": "Reported make", "Value": reported_vehicle.get("make")},
-                {"Field": "Reported model", "Value": reported_vehicle.get("model")},
-                {"Field": "Reported year", "Value": reported_vehicle.get("year")},
-                {"Field": "Decoded VIN", "Value": decoded_vehicle.get("vin")},
-                {"Field": "Decoded manufacturer", "Value": decoded_vehicle.get("manufacturer")},
-                {"Field": "Decoded model", "Value": decoded_vehicle.get("model")},
-                {"Field": "Decoded year", "Value": decoded_vehicle.get("year")},
-                {"Field": "Matching fields", "Value": ", ".join(vehicle.get("fields_that_match", [])) or "None"},
-                {"Field": "Different fields", "Value": ", ".join(vehicle.get("fields_that_differ", [])) or "None"},
+                {"Field": "Verification status", "Value": _display_value(vehicle_status)},
+                {"Field": "Reported VIN", "Value": _display_value(reported_vehicle.get("vin"))},
+                {"Field": "Reported make", "Value": _display_value(reported_vehicle.get("make"))},
+                {"Field": "Reported model", "Value": _display_value(reported_vehicle.get("model"))},
+                {"Field": "Reported year", "Value": _display_value(reported_vehicle.get("year"))},
+                {"Field": "Decoded VIN", "Value": _display_value(decoded_vehicle.get("vin"))},
+                {"Field": "Decoded manufacturer", "Value": _display_value(decoded_vehicle.get("manufacturer"))},
+                {"Field": "Decoded model", "Value": _display_value(decoded_vehicle.get("model"))},
+                {"Field": "Decoded year", "Value": _display_value(decoded_vehicle.get("year"))},
+                {"Field": "Matching fields", "Value": _display_value(", ".join(vehicle.get("fields_that_match", [])) or "None")},
+                {"Field": "Different fields", "Value": _display_value(", ".join(vehicle.get("fields_that_differ", [])) or "None")},
             ]
-            st.dataframe(vehicle_rows, hide_index=True, use_container_width=True)
+            st.dataframe(vehicle_rows, hide_index=True, width="stretch")
 
         citation_rows = [
             {
